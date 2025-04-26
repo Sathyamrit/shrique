@@ -6,8 +6,8 @@ import HomepageImage from "./images/homepage-background.jpg";
 const Homepage = () => {
   return (
     <div className="homepage">
-      
-      <div clasName="hero-text">
+
+      <div className="hero-text">
         <p>Sleek. Chic. Unstoppable.</p>
         <h1>Get up to 30% Off</h1>
         <h2>Summer Collection</h2>
@@ -16,13 +16,15 @@ const Homepage = () => {
         </Link>
       </div>
 
-      <div className="hero-image">
-        <img src={HomepageImage} alt="hero-image" />
+      <div className="hero-style">
         <div className="new-label">
           <p>NEW</p>
         </div>
         <div className="fits-label">
-          <p>FITS 2025</p>
+          <p>FITS</p>
+        </div>
+        <div className="fits-year">
+          <p>2025</p>
         </div>
       </div>
 

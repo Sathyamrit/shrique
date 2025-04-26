@@ -11,10 +11,10 @@ img{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 132px;
+  height: 70px;
 }
 
-h2{
+.heading-main{
   color: #7A1514;
   font-size: 48px;
   height: 60px;
