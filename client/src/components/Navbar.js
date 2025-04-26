@@ -15,9 +15,9 @@ const Navbar = () => {
         <ul>
           <h2 className="heading-main">shrique</h2>
 
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/login">Trending</Link></li>
-          <li><Link to="/sale">Sale</Link></li>
+          <li><Link to="/" className="named-links">Home</Link></li>
+          <li><Link to="/login" className="named-links">Trending</Link></li>
+          <li><Link to="/sale" className="named-links">Sale</Link></li>
 
           <li><Link to="/cart">
             <img src={Bag} alt="Bag"/></Link>

@@ -1,5 +1,6 @@
 *{
   list-style: none;
+  text-decoration: none ;
 }
 
 img{
@@ -12,6 +13,7 @@ img{
   justify-content: space-between;
   align-items: center;
   height: 70px;
+  padding: 0px 20px; 
 }
 
 .heading-main{
@@ -22,3 +24,10 @@ img{
   line-height: 100%;
 }
 
+.named-links{
+  font-family: "Ovo", serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: black;
+}

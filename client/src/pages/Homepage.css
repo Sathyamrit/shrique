@@ -1,31 +1,54 @@
 
 .homepage {
-  display: grid;
+  /* display: grid; */
   background-image: url(./images/homepage-background.jpg);
   height: auto;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
   height: 100vh;
   width: 100vw;
 }
 
 .hero-text {
   font-family: "Ovo", serif;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.hero-style{
+  display: flex;
+  flex-direction: column;
 }
 .new-label{
   font-family: "Sacramento", cursive;
   font-size: 160px;
   line-height: 100%;
   color: #FFFFFF;
+  position: absolute;
+  top: 50px;
+  left: 590px;
+  transform: rotate(-90deg);
 }
 .fits-label{
   font-family: "Outfit", sans-serif;
   font-size: 70px;
-  font-size: 160px;
   line-height: 100%;
-  /* color: #FFFFFF; */
+  color: #FFFFFF;
+  position: absolute;
+  /* bottom: 20px; */
+  right: 450px;
 }
 .fits-year{
   font-family: "Ovo", serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  color: #FFFFFF;
+  position: absolute;
+  right: 70px;
+  bottom: -20px;
 }
 
 .hero-text p{
@@ -45,4 +68,18 @@ color: rgb(0, 0, 0);
   font-size: 60px;
   line-height: 100%;
   color: rgb(0, 0, 0);
+}
+
+.shop-now-button{
+  font-family: "Outfit", sans-serif;
+  font-size: 32px;
+  line-height: 100%;
+  color: #FFFFFF;
+  background-color: #7A1514;
+  border-radius: 40px;
+  padding: 10px 20px;
+  text-decoration: none;
+  top: 400px;
+  left: 590px;
+  width: 170px;
 }
